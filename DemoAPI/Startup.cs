@@ -28,6 +28,7 @@ namespace DemoAPI
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // Añade el contexto de la base de datos.
             services.AddDbContext<SmartshopContext>(op => op.UseSqlServer(Configuration.GetConnectionString("Database")));
 
             services.AddControllers();

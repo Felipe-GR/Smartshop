@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LuisG\\source\\repos\\DemoAPI\\DemoAPI\\SmartshopAPI.csproj": {}
+    "C:\\Users\\LuisG\\OneDrive\\Documentos\\GitHub\\Smartshop\\DemoAPI\\SmartshopAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LuisG\\source\\repos\\DemoAPI\\DemoAPI\\SmartshopAPI.csproj": {
+    "C:\\Users\\LuisG\\OneDrive\\Documentos\\GitHub\\Smartshop\\DemoAPI\\SmartshopAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LuisG\\source\\repos\\DemoAPI\\DemoAPI\\SmartshopAPI.csproj",
+        "projectUniqueName": "C:\\Users\\LuisG\\OneDrive\\Documentos\\GitHub\\Smartshop\\DemoAPI\\SmartshopAPI.csproj",
         "projectName": "SmartshopAPI",
-        "projectPath": "C:\\Users\\LuisG\\source\\repos\\DemoAPI\\DemoAPI\\SmartshopAPI.csproj",
+        "projectPath": "C:\\Users\\LuisG\\OneDrive\\Documentos\\GitHub\\Smartshop\\DemoAPI\\SmartshopAPI.csproj",
         "packagesPath": "C:\\Users\\LuisG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LuisG\\source\\repos\\DemoAPI\\DemoAPI\\obj\\",
+        "outputPath": "C:\\Users\\LuisG\\OneDrive\\Documentos\\GitHub\\Smartshop\\DemoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LuisG\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using DemoAPI.Models;
 
+// Clase usada para controlar las operaciones disponibles de la aplicación.
 namespace DemoAPI.Controllers
 {    
     [ApiController]
+    // Define las rutas de la aplicaciones basandose en el nombre de la clase controlador. En este caso Products.
     [Route("[controller]")]
     public class ProductsController : ControllerBase
     {
@@ -21,6 +23,7 @@ namespace DemoAPI.Controllers
         }
 
         // GET: api/Products
+        // Permite la visualización de todos los productos.
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Product>>> GetProducts()
         {
@@ -28,6 +31,7 @@ namespace DemoAPI.Controllers
         }
 
         // GET: api/Products/5
+        // Permite la visualización del producto que contenga el id seleccionado.
         [HttpGet("{id}")]
         public async Task<ActionResult<Product>> GetProduct(int id)
         {
@@ -42,7 +46,7 @@ namespace DemoAPI.Controllers
         }
 
         // PUT: api/Products/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        // Permite la modificación del producto que contenga el id seleccionado.
         [HttpPut("{id}")]
         public async Task<IActionResult> PutProduct(int id, Product product)
         {
@@ -73,7 +77,7 @@ namespace DemoAPI.Controllers
         }
 
         // POST: api/Products
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
+        // Permite la creación del producto en la base de datos.
         [HttpPost]
         public async Task<ActionResult<Product>> PostProduct(Product product)
         {
@@ -84,6 +88,7 @@ namespace DemoAPI.Controllers
         }
 
         // DELETE: api/Products/5
+        // Permite la eliminación del producto que contenga el id seleccionado.
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
