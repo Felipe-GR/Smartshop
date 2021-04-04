@@ -13,3 +13,5 @@ API's para integrar Arduino al proyecto.
 1. Insertar un producto.
 2. Listar todos los productos.
 3. Listas producto por Id.
+
+## URL publica: https://smartshopapi.azure-api.net/Products
